@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Test1 ">
+        <parameter name="word1" value=" JAVA"></parameter>
+
+        <classes>
+            <class name="SDA.homeworks.day16.Hw01">
+                <methods>
+                    <include name="test1"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="Test 2 ">
+    <parameter name="word2" value=" Selenium"></parameter>
+
+  <classes>
+      <class name="SDA.homeworks.day16.Hw01">
+          <methods>
+              <include name="test2"></include>
+
+          </methods>
+      </class>
+  </classes>
+    </test>
+        </suite>

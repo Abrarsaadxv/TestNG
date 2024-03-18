@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Test 2 ">
+    <parameter name="username" value="student"></parameter>
+    <parameter name="password" value="Password321"></parameter>
+
+    <classes>
+        <class name="SDA.homeworks.day16.HW03">
+            <methods>
+                <include name="test3"></include>
+            </methods>
+        </class>
+    </classes>
+</test>
+
+        </suite>
