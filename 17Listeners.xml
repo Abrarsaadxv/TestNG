@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners> 
+    <listener class-name="SDA.utilities.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C02Listeners02">
+        <classes>
+            <class name="SDA.test.day20.C02Listeners02">
+                <methods>
+                    <include name="successfulTest"/>
+                    <include name="failedTest"/>
+                    <include name="skippedTest"/>
+                    <include name="successTest"/>
+                    <include name="timeoutTest"/>
+                    <include name="successfulTestWithPercentage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
